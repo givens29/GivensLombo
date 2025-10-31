@@ -1,3 +1,18 @@
 body {
-  background-color: azure;
+  background: #001c30;
+  color: #64ccc5;
+}
+
+.nav-link {
+  color: #64ccc5;
+}
+
+.nav-link.active {
+  color: orangered !important;
+}
+
+.contact,
+a {
+  text-decoration: none;
+  color: #64ccc5;
 }
