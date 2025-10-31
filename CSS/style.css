@@ -11,6 +11,10 @@ body {
   color: orangered !important;
 }
 
+.nav-link:hover {
+  color: orangered;
+}
+
 .contact,
 a {
   text-decoration: none;
