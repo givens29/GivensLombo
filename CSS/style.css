@@ -1,10 +1,10 @@
 body {
   background: #001c30;
-  color: #64ccc5;
+  color: #dafffb;
 }
 
 .nav-link {
-  color: #64ccc5;
+  color: #dafffb;
 }
 
 .nav-link.active {
@@ -18,7 +18,7 @@ body {
 .contact,
 a {
   text-decoration: none;
-  color: #64ccc5;
+  color: orangered;
 }
 
 .project,
@@ -38,4 +38,18 @@ section {
 
 .progress-bar {
   background-color: orangered !important;
+}
+
+.progress {
+  border-radius: 10px;
+  box-shadow: 0 3px 8px blue;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.btn {
+  background-color: #64ccc5;
+  color: white;
 }
