@@ -20,3 +20,22 @@ a {
   text-decoration: none;
   color: #64ccc5;
 }
+
+.project,
+img {
+  height: 200px;
+  object-fit: cover;
+}
+
+section {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#more-text {
+  display: none;
+}
+
+.progress-bar {
+  background-color: orangered !important;
+}

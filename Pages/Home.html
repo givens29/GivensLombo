@@ -19,7 +19,7 @@
   <body>
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#home">Navbar</a>
+        <a class="text-white" href="#home">IND</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -88,18 +88,18 @@
         </div>
       </div>
     </section>
-    <section id="education mt-5">
+    <section id="education ">
       <div class="container-fluid text-center">
         <div class="row">
-          <h3>Bachelor of Software Engineer</h3>
+          <h3>Bachelor of Software Engineer 2025</h3>
           <h4>Tomsk State University</h4>
         </div>
       </div>
     </section>
-    <section id="skills mt-5">
+    <section id="skills ">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col">
+          <div class="col-md-6">
             <h2 class="text-center">Technical Skills</h2>
             <div>
               <div class="row">
@@ -234,7 +234,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-md-6">
             <h2 class="text-center">Soft Skills</h2>
             <div>
               <div class="row">
@@ -320,46 +320,119 @@
         </div>
       </div>
     </section>
-    <section id="projects mt-5">
-      <div class="row">
-        <div class="card col" style="width: 18rem">
-          <img
-            src="../src/deliveryInternational.png"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title">Delivery International</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card’s content.
-            </p>
-            <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+    <section id="projects ">
+      <div class="container">
+        <div class="row justify-content-center g-4">
+          <div class="col-md-4 d-flex justify-content-center">
+            <div class="card h-100" style="width: 18rem">
+              <img
+                src="../src/deliveryInternational.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Delivery International</h5>
+                <p class="card-text">
+                  Delivery International is a food delivery website that allow
+                  user to register, search menu, order food, give rating, etc.
+                  <span id="dots">...</span>
+                  <span id="more-text"
+                    >The technology used to develop are React for the frontend,
+                    ASP .Net Core for the backend and SQL Server for storing,
+                    retrieve and managing the database.</span
+                  >
+                </p>
+                <button
+                  class="btn btn-primary"
+                  id="read-more-btn"
+                  onclick="toggleText(this)"
+                >
+                  Read More
+                </button>
+                <a href="#" target="_blank"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="card col" style="width: 18rem">
-          <img src="../src/mokerja.png" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">MOKERJA</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card’s content.
-            </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+          <div class="col-md-4 d-flex justify-content-center">
+            <div class="card h-100" style="width: 18rem">
+              <img src="../src/mokerja.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">MOKERJA</h5>
+                <p class="card-text">
+                  MOKERJA is a job vacancy website that help connecting
+                  jobseeker in Papua with companies that are looking for Papuan
+                  employees.
+                  <span id="dots">...</span>
+                  <span id="more-text"
+                    >This website allow jobseeker to register (the system has
+                    mechanism to check either the jobseeker are Papuan or not),
+                    managing profile, verify account, search for job, search for
+                    companies, submit job application, etc. The companies they
+                    can register, manage profile, add recruiters, post jobs (in
+                    order to post job they have to subscribe to MOKERJA), manage
+                    job, etc. The technologies used was React, ASP .Net Core,
+                    SQL Server, Midtrans and Cloudinary.</span
+                  >
+                </p>
+                <button
+                  class="btn btn-primary"
+                  id="read-more-btn"
+                  onclick="toggleText(this)"
+                >
+                  Read More
+                </button>
+                <a href="#"><i class="fa-solid fa-file"></i></a>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="card col" style="width: 18rem">
-          <div class="card-body">
-            <h5 class="card-title">SMS</h5>
-            <h6 class="card-subtitle mb-2 text-body-secondary">
-              Card subtitle
-            </h6>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card’s content.
-            </p>
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
+          <div class="col-md-4 d-flex justify-content-center">
+            <div class="card h-100" style="width: 18rem">
+              <div
+                style="
+                  height: 200px;
+                  background-color: #f0f0f0;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                "
+              >
+                <span class="text-muted">No Image</span>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">SMS</h5>
+                <p class="card-text">
+                  Scholarship Managemenet System (SMS) is a website that help
+                  connecting the recipients of Papua special autonomy
+                  scholarship and the administrators of the scholarship.
+                  <span id="dots">...</span>
+                  <span id="more-text"
+                    >This website allow the scholarship recipients to register
+                    by providing their scholarship contract that later will be
+                    verify by the scholarship administrators to give permission
+                    to login, recipients also can submit their academic records
+                    and expenses to process their scholarship continuously.
+                    While the administrator of the scholarship can verify the
+                    recipients and view their academic and expenses to process
+                    their scholarship. The website also allow the recipients and
+                    the administrator of the scholarship to connect with each
+                    other by messaging. The website developed using HTML, CSS,
+                    JavaScript and ASP .Net Core, SQL Server.</span
+                  >
+                </p>
+                <button
+                  class="btn btn-primary"
+                  id="read-more-btn"
+                  onclick="toggleText(this)"
+                >
+                  Read More
+                </button>
+                <a href="#" class="card-link"
+                  ><i class="fa-solid fa-file"></i
+                ></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -375,4 +448,5 @@
     integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
     crossorigin="anonymous"
   ></script>
+  <script src="../JavaScript/en.js"></script>
 </html>
