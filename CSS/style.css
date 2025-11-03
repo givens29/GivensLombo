@@ -1,6 +1,19 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #001c30;
   color: #dafffb;
+}
+
+.navbar {
+  background-color: #001c30 !important;
+}
+
+.navbar-toggler {
+  background-color: orangered !important;
+  border-radius: 50px;
 }
 
 .nav-link {
@@ -15,10 +28,10 @@ body {
   color: orangered;
 }
 
-.contact,
-a {
+.icon a {
   text-decoration: none;
   color: orangered;
+  font-size: 30px;
 }
 
 .project,
@@ -32,10 +45,6 @@ section {
   margin-bottom: 100px;
 }
 
-#more-text {
-  display: none;
-}
-
 .progress-bar {
   background-color: orangered !important;
 }
@@ -45,11 +54,29 @@ section {
   box-shadow: 0 3px 8px blue;
 }
 
-html {
-  scroll-behavior: smooth;
+.btn {
+  background-color: blue;
+  color: white;
 }
 
-.btn {
-  background-color: #64ccc5;
-  color: white;
+.no-image {
+  height: 200px;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #888888;
+  font-size: 18px;
+}
+
+.lang {
+  color: #dafffb;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+.tech {
+  font-weight: 500;
+  font-style: italic;
 }
