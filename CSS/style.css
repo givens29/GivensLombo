@@ -91,13 +91,11 @@ section {
   display: inline-block;
 }
 
-/* IMAGE WRAPPER */
 .img-wrapper {
   position: relative;
   display: inline-block;
 }
 
-/* CIRCLE */
 .abstract-circle {
   position: absolute;
   top: 50%;
@@ -111,7 +109,6 @@ section {
   z-index: -1;
 }
 
-/* --- TEXT --- */
 .hero-title {
   font-size: 3rem;
   font-weight: bold;
@@ -129,7 +126,6 @@ section {
   margin: auto;
 }
 
-/* --- RESPONSIVE — TABLET --- */
 @media (max-width: 992px) {
   .abstract-circle {
     width: 260px;
@@ -149,7 +145,6 @@ section {
   }
 }
 
-/* --- RESPONSIVE — MOBILE --- */
 @media (max-width: 576px) {
   .abstract-circle {
     width: 180px;
@@ -174,6 +169,6 @@ section {
   }
 
   .text-section {
-    margin-top: 20px; /* add spacing on mobile */
+    margin-top: 20px;
   }
 }
